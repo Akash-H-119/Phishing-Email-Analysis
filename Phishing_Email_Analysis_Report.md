@@ -63,7 +63,7 @@ Analyze suspicious emails to identify phishing indicators and document the findi
   - URL structure looks auto-generated and shady.
   - Came from a spoofed banking email.
 
-- 
+
 
 
 ---
