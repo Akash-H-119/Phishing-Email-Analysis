@@ -52,6 +52,8 @@ Analyze suspicious emails to identify phishing indicators and document the findi
 - **Header analysis output**.
 <img width="1560" height="908" alt="image" src="https://github.com/user-attachments/assets/d3557758-cf93-40f0-8abe-8117920c31c4" />
 <img width="1239" height="206" alt="image" src="https://github.com/user-attachments/assets/aff8a5f9-f1dc-4c7c-a3c1-c0323ed0c1c6" />
+![WhatsApp Image 2025-09-24 at 15 24 00_8e542769](https://github.com/user-attachments/assets/40a67e7b-e37d-44f8-baae-d22376826770)
+
 
 
 - **Extracted URL output** .
@@ -113,14 +115,12 @@ This is a phishing attempt targeting bank customers using urgency and a spoofed 
 ---
 
 ## Screenshots
-- **email header screenshot**.
+- **Header Analysis**.
 <img width="1721" height="926" alt="image" src="https://github.com/user-attachments/assets/e6f0dea2-369c-41f7-adc4-db1623856c0e" />
 <img width="1454" height="225" alt="image" src="https://github.com/user-attachments/assets/f245df39-713b-429c-8e5e-7a5c040d99a1" />
+![WhatsApp Image 2025-09-24 at 15 24 27_ae985324](https://github.com/user-attachments/assets/5bd8d6e8-a693-4e73-89a6-68900f2a3a14)
 
-  
-- **email body screenshot** .  
 
----
 
 ## Conclusion
 This is a phishing attempt using a spoofed domain and failed authentication checks to deliver a marketing-style lure.  
