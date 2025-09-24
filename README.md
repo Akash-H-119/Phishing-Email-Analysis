@@ -1,11 +1,20 @@
 # Phishing Email Analysis
 
-This repository contains the analysis for **Task 2 – Cyber Security Internship**.
 
 ## Contents
 - `Phishing_Email_Analysis_Report.md` – Detailed report of the phishing email analysis.
-- `header_screenshot.png` – Screenshot of email header analysis.
-- `url_screenshot.png` – Screenshot of extracted malicious URL.
+- `README.md` – short explanation of task & tools used.
+- `Phishing Email Samples` - Email Samples.
+- `Visible_details.txt` - Details of the emails.
+- `links_analysis.md` - URL analysis of the emails.
+
+## Tools used
+
+- **MxToolbox Header Analyzer** – for parsing headers (SPF, DKIM, DMARC).  
+- **VirusTotal** – for checking suspicious links.  
+- **Email client (.eml)** – for extracting raw headers.  
+- **Manual inspection** – for social engineering traits (urgency, spoofing, etc.).  
+
 
 ## Steps Performed
 1. Obtained a sample phishing email.
