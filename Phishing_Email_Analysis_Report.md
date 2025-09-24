@@ -1,9 +1,11 @@
 # Phishing Email Analysis Report
 
 ## Objective
-Analyze a suspicious email to identify phishing indicators and document the findings.
+Analyze suspicious emails to identify phishing indicators and document the findings.
 
 ---
+
+# 📧 Email Sample 1 – Bradesco Livelo Points
 
 ## Email Header Summary
 | Field        | Observation |
@@ -19,7 +21,7 @@ Analyze a suspicious email to identify phishing indicators and document the find
 ## Header Security Checks
 | Check  | Result       | Reason for Concern |
 |--------|-------------|-------------------|
-| SPF    | temperror   | Sender IP not authorized to send on behalf of atendimento.com.br |
+| SPF    | temperror   | Sender IP not authorized for atendimento.com.br |
 | DKIM   | none        | Message not cryptographically signed |
 | DMARC  | temperror   | Domain owner’s policy not met |
 
@@ -27,39 +29,85 @@ Analyze a suspicious email to identify phishing indicators and document the find
 
 ## Phishing Indicators
 1. **Spoofed Sender Domain**  
-   - Appears as `banco.bradesco@atendimento.com.br` but real Bradesco uses `bradesco.com.br`.
+   - Appears as `banco.bradesco@atendimento.com.br`, but real Bradesco uses `bradesco.com.br`.  
 
 2. **Failed Email Authentication**  
-   - SPF, DKIM, and DMARC checks all failed.
+   - SPF, DKIM, and DMARC checks all failed.  
 
 3. **Urgent Language**  
-   - “92.990 points expiring today” pressures immediate action.
+   - “92.990 points expiring today” pressures immediate action.  
 
 4. **Unusual Sending Host**  
-   - Message ID shows a generic Ubuntu mail server, not a bank system.
+   - Message ID shows a generic Ubuntu mail server, not a Bradesco server.  
 
 5. **Malicious URL**  
-   - Extracted URL: `https://blog1seguimentmydomaine2bra.me/`  
-   - This is not an official Bradesco domain and likely hosts a phishing site.
+   - Extracted: `https://blog1seguimentmydomaine2bra.me/`  
+   - Clearly not an official Bradesco domain.  
 
 ---
 
 ## Screenshots
-- **Header analysis output** (attach your header screenshot image file).
-- **Extracted URL output** (attach your malicious-link screenshot image file).
+- **Header analysis output** (attach screenshot).  
+- **Extracted URL output** (attach screenshot).  
 
 ---
 
 ## Conclusion
-This email is a classic phishing attempt designed to steal user credentials:
-- Spoofed “From” address
-- Failed SPF/DKIM/DMARC authentication
-- Urgent social-engineering wording
-- Malicious redirect link
+This is a phishing attempt targeting bank customers using urgency and a spoofed sender identity.  
 
 ---
 
-## Recommendations
-- Do **not** click any links or open attachments.
-- Report the email to your email provider’s abuse or phishing address.
-- Educate users about verifying domains and checking email headers.
+# 📧 Email Sample 2 – Solar Panels Offer
+
+## Email Header Summary
+| Field        | Observation |
+|------------- |------------ |
+| **Subject**  | Zonnepanelen voor een goede prijs (Solar panels for a good price) |
+| **From**     | zonnepaneel@appjj.serenitepure.fr |
+| **To**       | phishing@pot… |
+| **Date**     | 2022-11-03 04:56:15 UTC |
+| **Message ID** | <0.0.0.0.1D8EF409A5C12CE.37AA@dturn.de> |
+
+---
+
+## Header Security Checks
+| Check  | Result | Reason for Concern |
+|--------|--------|-------------------|
+| SPF    | none   | Sender IP (57.128.69.202) not authorized |
+| DKIM   | none   | Message not cryptographically signed |
+| DMARC  | none   | No policy applied |
+
+---
+
+## Phishing Indicators
+1. **Spoofed Sender Domain**  
+   - `@serenitepure.fr` domain unrelated to solar panel offers.  
+
+2. **Failed Authentication**  
+   - SPF, DKIM, and DMARC all failed.  
+
+3. **Suspicious Routing**  
+   - Sent via `dturn.de` server, not aligned with sender domain.  
+
+4. **Marketing Bait**  
+   - Subject promises “a good price” to lure clicks.  
+
+---
+
+## Screenshots
+- Add **email header screenshot** (from header analyzer).  
+- Add **email body screenshot** if available.  
+
+---
+
+## Conclusion
+This is a phishing attempt using a spoofed domain and failed authentication checks to deliver a marketing-style lure.  
+
+---
+
+# ✅ Overall Recommendations
+- Do **not** click links or open attachments in suspicious emails.  
+- Always verify sender domains against official ones.  
+- Check email headers for SPF/DKIM/DMARC failures.  
+- Educate users about common phishing tactics.  
+- Report phishing to abuse teams or security contacts.  
