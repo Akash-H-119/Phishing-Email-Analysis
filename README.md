@@ -20,8 +20,3 @@ This repository contains the analysis for **Task 2 – Cyber Security Internship
 ## Outcome
 Developed awareness of phishing tactics, header analysis, and email threat detection.
 
----
-
-**Submission**  
-After pushing this repo, submit the link through the provided Google Form:
-[https://forms.gle/8Gm83s53KbyXs3Ne9](https://forms.gle/8Gm83s53KbyXs3Ne9)
