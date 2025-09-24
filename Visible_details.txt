@@ -1,0 +1,54 @@
+Phishing Email – Visible Details
+
+Email Sample 1:
+
+Subject:
+CLIENTE PRIME - BRADESCO LIVELO: Seu cartão tem 92.990 pontos LIVELO expirando hoje!
+
+From:
+banco.bradesco@atendimento.com.br
+
+To:
+phishing@pot
+
+Date (UTC):
+2023-09-19 18:35:49
+
+Message ID:
+<20230919183549.39DEA3F725@ubuntu-s-1vcpu-1gb-35gb-intel-sfo3-06>
+
+Security / Authentication Results:
+SPF: temperror (sender IP not authorized)
+DKIM: none (message not signed)
+DMARC: temperror (policy not met)
+
+Note:
+The email claims to be from Bradesco but uses the domain atendimento.com.br,
+fails SPF/DKIM/DMARC checks, and contains an urgent message about expiring points.
+
+
+
+Email Sample 2:
+# Task 2: Phishing Email Analysis    
+
+Message ID: <0.0.0.0.1D8EF409A5C12CE.37AA@dturn.de>
+
+Subject: Zonnepanelen voor een goede prijs (English: Solar panels for a good price)
+
+Date (UTC): 2022-11-03T04:56:15Z
+
+From: zonnepaneel@appjj.serenitepure.fr
+
+To: phishing@pot…
+
+Security Authentication:
+**SPF:** none → Sender IP 57.128.69.202 not authorized  
+- **DKIM:** none → No digital signature  
+- **DMARC:** none → No policy applied  
+
+Note : 
+This email displays multiple phishing characteristics:  
+- Fake sender domain  
+- No authentication mechanisms  
+- Misleading subject line  
+
