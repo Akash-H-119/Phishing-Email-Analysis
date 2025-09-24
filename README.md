@@ -4,9 +4,12 @@
 ## Contents
 - `Phishing_Email_Analysis_Report.md` – Detailed report of the phishing email analysis.
 - `README.md` – short explanation of task & tools used.
-- `Phishing Email Samples` - Email Samples.
 - `Visible_details.txt` - Details of the emails.
+- `attachment_analysis` - Attachments found in the email.
+- `content_findings.md` - Contents found in the email.(urgent language,spoofed sender,suspicious url).
+- `headers.txt` - Contains headers of the emails.
 - `links_analysis.md` - URL analysis of the emails.
+- `Phishing Email Samples` - Email Samples(sample-1.eml,sample-2.eml).
 
 ## Tools used
 
