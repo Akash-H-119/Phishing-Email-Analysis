@@ -57,11 +57,12 @@ Analyze suspicious emails to identify phishing indicators and document the findi
 - **Extracted URL output** .
 <img width="1667" height="965" alt="image" src="https://github.com/user-attachments/assets/0d8e9265-4b4a-496f-b571-33110959b3a5" />
 - URL: https://blog1seguimentmydomaine2bra.me/
+
 - VirusTotal result: No security vendors flagged this URL as malicious.
-- Reason still suspicious:
-  - Domain name does not match official Bradesco domain.
-  - URL structure looks auto-generated and shady.
-  - Came from a spoofed banking email.
+ - Reason still suspicious:
+   - Domain name does not match official Bradesco domain.
+   - URL structure looks auto-generated and shady.
+   - Came from a spoofed banking email.
 
 
 
