@@ -1,0 +1,23 @@
+Email Sample 1:Bradesco Livelo Points
+  
+Message-ID: <20230919183549.39DEA3F725@ubuntu-s-1vcpu-1gb-35gb-intel-sfo3-06>
+From: banco.bradesco@atendimento.com.br
+To: phishing@pot
+Subject: CLIENTE PRIME - BRADESCO LIVELO: Seu cartão tem 92.990 pontos LIVELO expirando hoje!
+Date: Tue, 19 Sep 2023 18:35:49 +0000
+
+
+Email Sample 2:Solar Panels Offer
+
+Message-ID: <0.0.0.0.1D8EF409A5C12CE.37AA@dturn.de>
+From: zonnepaneel@appjj.serenitepure.fr
+To: phishing@pot
+Subject: Zonnepanelen voor een goede prijs
+Date: Thu, 3 Nov 2022 04:56:15 +0000
+
+
+
+
+
+
+
