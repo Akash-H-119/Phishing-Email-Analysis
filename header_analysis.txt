@@ -1,0 +1,11 @@
+==== Bradesco Email ====
+SPF: temperror (Sender IP not authorized for atendimento.com.br)
+DKIM: none (message not signed)
+DMARC: temperror (domain policy not met)
+Routing: Sent via generic Ubuntu mail server, not Bradesco.
+
+==== Solar Panels Email ====
+SPF: none (Sender IP 57.128.69.202 not authorized)
+DKIM: none (message not signed)
+DMARC: none (no policy)
+Routing: Sent via dturn.de, not related to sender domain.
