@@ -7,6 +7,7 @@
 - `Visible_details.txt` - Details of the emails.
 - `attachment_analysis` - Attachments found in the email.
 - `content_findings.md` - Contents found in the email.(urgent language,spoofed sender,suspicious url).
+- `header_analysis.txt` - Header Analysis report.
 - `headers.txt` - Contains headers of the emails.
 - `links_analysis.md` - URL analysis of the emails.
 - `Phishing Email Samples` - Email Samples(sample-1.eml,sample-2.eml).
