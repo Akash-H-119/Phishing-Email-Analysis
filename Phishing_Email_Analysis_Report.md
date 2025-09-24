@@ -6,6 +6,8 @@ Analyze suspicious emails to identify phishing indicators and document the findi
 ---
 
 # 📧 Email Sample 1 – Bradesco Livelo Points
+<img width="786" height="718" alt="image" src="https://github.com/user-attachments/assets/be2299bd-d798-4960-bf55-5d967019b7ed" />
+
 
 ## Email Header Summary
 | Field        | Observation |
@@ -47,8 +49,22 @@ Analyze suspicious emails to identify phishing indicators and document the findi
 ---
 
 ## Screenshots
-- **Header analysis output** (attach screenshot).  
-- **Extracted URL output** (attach screenshot).  
+- **Header analysis output**.
+<img width="1560" height="908" alt="image" src="https://github.com/user-attachments/assets/d3557758-cf93-40f0-8abe-8117920c31c4" />
+<img width="1239" height="206" alt="image" src="https://github.com/user-attachments/assets/aff8a5f9-f1dc-4c7c-a3c1-c0323ed0c1c6" />
+
+
+- **Extracted URL output** .
+<img width="1667" height="965" alt="image" src="https://github.com/user-attachments/assets/0d8e9265-4b4a-496f-b571-33110959b3a5" />
+- URL: https://blog1seguimentmydomaine2bra.me/
+- VirusTotal result: No security vendors flagged this URL as malicious.
+- Reason still suspicious:
+  - Domain name does not match official Bradesco domain.
+  - URL structure looks auto-generated and shady.
+  - Came from a spoofed banking email.
+
+- 
+
 
 ---
 
@@ -58,6 +74,7 @@ This is a phishing attempt targeting bank customers using urgency and a spoofed 
 ---
 
 # 📧 Email Sample 2 – Solar Panels Offer
+<img width="507" height="808" alt="image" src="https://github.com/user-attachments/assets/7d949d8a-0c4f-4da5-a4ad-178f4df729df" />
 
 ## Email Header Summary
 | Field        | Observation |
@@ -95,8 +112,12 @@ This is a phishing attempt targeting bank customers using urgency and a spoofed 
 ---
 
 ## Screenshots
-- Add **email header screenshot** (from header analyzer).  
-- Add **email body screenshot** if available.  
+- **email header screenshot**.
+<img width="1721" height="926" alt="image" src="https://github.com/user-attachments/assets/e6f0dea2-369c-41f7-adc4-db1623856c0e" />
+<img width="1454" height="225" alt="image" src="https://github.com/user-attachments/assets/f245df39-713b-429c-8e5e-7a5c040d99a1" />
+
+  
+- **email body screenshot** .  
 
 ---
 
