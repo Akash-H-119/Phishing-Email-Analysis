@@ -14,7 +14,8 @@
 
 ## Tools used
 
-- **MxToolbox Header Analyzer** – for parsing headers (SPF, DKIM, DMARC).  
+- **MxToolbox Header Analyzer** – for parsing headers (SPF, DKIM, DMARC).
+- **EML Analyzer** - for analysing the header(from,to,return_path etc). 
 - **VirusTotal** – for checking suspicious links.  
 - **Email client (.eml)** – for extracting raw headers.  
 - **Manual inspection** – for social engineering traits (urgency, spoofing, etc.).  
